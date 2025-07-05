@@ -83,7 +83,22 @@ or using parameter
 
 # Bonus : Recompile if Livewire used with Vite
 
+- Download + Install all package.json libs (vite, tailwindcss, alpinejs..)
+- creates a node_modules/ folder
+
+```cmd
+npm install
+```
+
+- Compile assets (JS/CSS) in dev mode
+
 ```cmd
 npm run dev
 ```
 
+- Build the assets in production mode (smaller, optimized files)
+- Slower but cleaner
+
+```cmd
+npm run build
+```
